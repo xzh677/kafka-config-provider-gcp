@@ -69,7 +69,7 @@ ${gcp:<gcp-project-id>:<secret-name>[:<secret-version>]}
 For example, if you have the GCP project as `my-gcp-test-project` and the following secrets in the Secret Manager:
 
 | Secret Name                                    | Value                                                         | Version |
-|-------------------------------------------|---------------------------------------------------------------------|
+|-------------------------------------------|---------------------------------------------------------------------| ------- |
 | kafka-jass-config                          |    org.apache.kafka.common.security.plain.PlainLoginModule required username='admin' password='admin';                  | 1
 | kafka-api-key | ABCTESTKEY | 1 |
 | kafka-api-secret | ABCTESTSECRET | 1 |
